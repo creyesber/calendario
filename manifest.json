@@ -1,0 +1,32 @@
+{
+  "name": "Monthly Calendar (Minimal Stub)",
+  "organization": "Tu Organización",
+  "description": "Stub mínimo de calendario para pruebas de carga e interactividad.",
+  "logoUrl": "icon.svg",
+  "components": [
+    {
+      "id": "calendar",
+      "name": "Monthly Calendar Filter (Stub)"
+    }
+  ],
+  "resources": [
+    { "type": "js", "src": "index.js" },
+    { "type": "css", "src": "index.css" }
+  ],
+  "data": {
+    "tables": [
+      {
+        "id": "DEFAULT",
+        "label": "Datos",
+        "columns": [
+          { "id": "date", "label": "Fecha", "type": "DATE" }
+        ]
+      }
+    ]
+  },
+  "style": {},
+  "theme": { "useTheme": true },
+  "interactions": {
+    "crossFilters": { "enabled": true }
+  }
+}
