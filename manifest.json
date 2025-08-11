@@ -2,7 +2,7 @@
   "name": "Monthly Calendar (Minimal Stub)",
   "organization": "Tu Organización",
   "description": "Stub mínimo de calendario para pruebas de carga e interactividad.",
-  "logoUrl": "icon.svg",
+  "logoUrl": "logo.png",
   "components": [
     {
       "id": "calendar",
